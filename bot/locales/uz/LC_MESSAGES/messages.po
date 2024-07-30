@@ -1,0 +1,505 @@
+# Uzbek translations for messages..
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the messages. project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: messages. VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-19 10:47+0000\n"
+"PO-Revision-Date: 2024-04-28 13:19+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: handlers/about.py:14
+msgid ""
+"\n"
+"AIKO — Yevropa sifat standartlariga javob beradigan mebel mahsulotlarini "
+"ishlab chiqaruvchi sifatida dovrugʻ qozongan brenddir. Kompaniyada 600 "
+"dan ortiq xodim mehnat qiladi. Barcha mahsulotlar mashhur jahon "
+"brendlarining yuqori sifatli uskunalari yordamida ishlab chiqariladi. "
+"AIKO mahsulotlari MDH va qo‘shni mamlakatlar bozorida katta talabga ega."
+"\n"
+"\n"
+"2020-yilda AIKO ISO 9001-2015 sifat menejmenti xalqaro sertifikatiga "
+"sazovor boʻldi, bu kompaniyaga dilerlik tarmog‘ini sezilarli darajada "
+"kengaytirish imkoniyatini taqdim etdi. Bugungi kunda AIKO mebellarini "
+"nafaqat O‘zbekistonda, balki Qozog‘iston, Rossiya va boshqa ko‘plab "
+"mamlakatlarda ham uchratish mumkin. Bundan tashqari, AIKO MDH "
+"davlatlarining turli shaharlarida o‘tkazilayotgan xalqaro ko‘rgazmalarda "
+"faol ishtirok etib, o‘zining so‘nggi yutuqlari va innovatsiyalarini "
+"namoyish etib kelmoqda.\n"
+"\n"
+"2020-yilda AIKO Toshkentdagi mebel sanoati korxonalari orasida to‘qilgan "
+"mebel eksporti bo‘yicha yetakchi o‘rinlardan birini egalladi. Bugungi "
+"kunda AIKO mahsulot assortimentida to‘qilgan mebel va uy mebellarining "
+"700 dan ortiq modellari mavjud. Kompaniya 2021 va 2022 yillarda “Yil "
+"brendi” nufuzli mukofotiga sazovor boʻlgan, bu esa iste’molchilar va soha"
+" mutaxassislarining yuqori ishonch darajasini ifodalaydi.\n"
+"\n"
+"Kompaniyaning asosiy maqsadi — nafis dizayn, yengillik, soddalik va "
+"qulaylikni oʻzida mujassam etgan mebellar yaratish. Biz nafaqat "
+"mahsulotlarimiz sifati, balki Yevropa standartlariga javob beradigan "
+"estetik ko‘rinishi bilan ham iste’molchilar mehrini qozonganmiz.  "
+"AIKOʼning barcha mahsulotlari mustahkam va ishonchli boʻlib, zamonaviy "
+"inson uchun mukammal tanlovdir.\n"
+"\n"
+"Mebelimiz mijozlarimiz xonadonining ajralmas qismiga aylanib, qulaylik va"
+" shinamlik baxsh etayotganidan hamisha faxrlanamiz. Mukammallik va "
+"innovatsiyalarga doimiy  intilishimiz bizga raqobatchilarimizdan bir "
+"qadam oldinda turishga va eng yuqori bozor talablariga javob beruvchi "
+"mahsulotlarni taklif qilishga yordam beradi. Ishonchimiz komilki, bu "
+"iste’molchilar ishonchini qozonish va sohamiz yetakchisiga aylanishning "
+"yagona yo‘li hisoblanadi.\n"
+"\n"
+"AIKO — shunchaki brend emas, bu sifat va uslub ramzidir. Biz barcha "
+"mijozlarimizga bildirilgan ishonch uchun chuqur minnatdorchilik izhor "
+"etamiz va ularni mebel olamida yangi va innovatsion yechimlar bilan "
+"mamnun etishga tayyormiz. Yutuqlarimiz butun jamoaning mashaqqatli "
+"mehnati samarasidir va biz bundan buyon ham yangi marralar va "
+"muvaffaqiyatlar sari intilishdan toʻxtamaymiz\n"
+"\n"
+"Kontakt: +998 55 508 11 88\n"
+"🌐 aiko.uz\n"
+"t.me/aiko_uz\n"
+"www.instagram.com/aiko.uz\n"
+"📍 Manzil: <a href=\"https://yandex.uz/maps/-/CDSRjF-P\">Yandex</a> | <a "
+"href=\"https://maps.app.goo.gl/WAijBRbMoxUx26Ah7\">Google</a>\n"
+msgstr ""
+
+#: handlers/accept_user.py:25 handlers/back.py:13 handlers/inline_finder.py:83
+#: handlers/order.py:50 handlers/start.py:35 handlers/start.py:60
+#: keyboards/inline/finder_kbd.py:24
+msgid "Asosiy menu"
+msgstr ""
+
+#: handlers/accept_user.py:29
+msgid "✅ Yangi foydalanuvchiga ruxsat berdingiz."
+msgstr ""
+
+#: handlers/accept_user.py:37
+msgid "Ruxsat berilmadi!"
+msgstr ""
+
+#: handlers/accept_user.py:40
+msgid "❌ Yangi foydalanuvchiga ruxsat berilmadi."
+msgstr ""
+
+#: handlers/cart.py:30 handlers/cart.py:71
+msgid "Savatcha bo'sh"
+msgstr ""
+
+#: handlers/cart.py:35 handlers/cart.py:76
+msgid ""
+"Savatcha:\n"
+"\n"
+msgstr ""
+
+#: handlers/cart.py:37 handlers/cart.py:78 handlers/order.py:24
+msgid "{}\n"
+msgstr ""
+
+#: handlers/cart.py:38 handlers/cart.py:79 handlers/order.py:25
+msgid "Artikul: {}\n"
+msgstr ""
+
+#: handlers/cart.py:39
+msgid ""
+"{} * {:,.0f} so`m = {:,.0f} so`m\n"
+"\n"
+msgstr ""
+
+#: handlers/cart.py:57
+msgid "Savatcha tozalandi"
+msgstr ""
+
+#: handlers/cart.py:80 handlers/order.py:27
+msgid ""
+"{} * {:,.0f}$ = {:,.0f}$\n"
+"\n"
+msgstr ""
+
+#: handlers/cart.py:150 handlers/cart_inline.py:80
+msgid "Savatga qo'shildi"
+msgstr ""
+
+#: handlers/category.py:15
+msgid "Quyidagi birini tanlang"
+msgstr ""
+
+#: handlers/category.py:62 handlers/category.py:76
+msgid "Quyidagi kategoriyalardan birini tanlang"
+msgstr ""
+
+#: handlers/change_language.py:15
+msgid "Ma'lumotlarni qaysi tilda qabul qilmoqchisiz?"
+msgstr ""
+
+#: handlers/export_users.py:36
+msgid "user counter: <b>{count}</b>"
+msgstr ""
+
+#: handlers/finder.py:20 handlers/inline_finder.py:29
+msgid "Mahsulot nomini kiriting"
+msgstr ""
+
+#: handlers/finder.py:39 handlers/inline_finder.py:57
+msgid "Mahsulot topilmadi"
+msgstr ""
+
+#: handlers/finder.py:41 handlers/finder.py:55 handlers/sub_category.py:26
+msgid "Quyidagi mahsulotlardan birini tanlang"
+msgstr ""
+
+#: handlers/finder.py:81 handlers/inline_finder.py:123 handlers/product.py:48
+msgid "Artikul: <b>{}</b>\n"
+msgstr ""
+
+#: handlers/finder.py:82 handlers/inline_finder.py:124 handlers/order.py:26
+#: handlers/product.py:49
+msgid "Xarakteristika: <b>{}</b>\n"
+msgstr ""
+
+#: handlers/finder.py:83 handlers/inline_finder.py:125 handlers/product.py:50
+msgid "Narxi: <b>{:,.0f} so`m</b>\n"
+msgstr ""
+
+#: handlers/finder.py:86
+msgid "Chegirma narxi: <b>{} so`m</b>\n"
+msgstr ""
+
+#: handlers/finder.py:88 handlers/inline_finder.py:131 handlers/product.py:56
+msgid ""
+"Qoldi: <b>{}</b>\n"
+"\n"
+msgstr ""
+
+#: handlers/inline_finder.py:30
+msgid "Minimal qiymat 3 ta belgi"
+msgstr ""
+
+#: handlers/inline_finder.py:70
+msgid "Qoldi: {}"
+msgstr ""
+
+#: handlers/inline_finder.py:127 handlers/product.py:52
+msgid "Chegirma narxi: <b>{:,.0f} so`m</b>\n"
+msgstr ""
+
+#: handlers/inline_finder.py:128 handlers/product.py:53
+msgid "Diler narxi: <b>{:,.0f}$</b>\n"
+msgstr ""
+
+#: handlers/inline_finder.py:130 handlers/product.py:55
+msgid "Diler chegirma narxi: <b>{:,.0f}$</b>\n"
+msgstr ""
+
+#: handlers/menu.py:13
+msgid "title main keyboard"
+msgstr ""
+
+#: handlers/order.py:21
+msgid "✅ Buyurtmangiz menejerga jo'natildi.\n"
+msgstr ""
+
+#: handlers/order.py:22
+msgid ""
+"Buyurtma raqami: #{}\n"
+"\n"
+msgstr ""
+
+#: handlers/order.py:36
+msgid "🆕 Yangi buyurtma\n"
+msgstr ""
+
+#: handlers/order.py:37 handlers/start.py:77
+msgid "Ismi: {}\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:40 handlers/order.py:38 handlers/start.py:78
+msgid "username: @{}\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:41 handlers/order.py:39
+msgid "Telefon raqami: {}\n"
+msgstr ""
+
+#: handlers/start.py:32 handlers/start.py:49 handlers/start.py:93
+msgid "Iltimos, telefon raqamingizni yuboring"
+msgstr ""
+
+#: handlers/start.py:75
+msgid ""
+"Yangi foydalanuvchi sizni ruxsatingizni kutyabdi.\n"
+"\n"
+msgstr ""
+
+#: handlers/start.py:76
+msgid "ID: {}\n"
+msgstr ""
+
+#: handlers/start.py:79
+msgid "Telefon raqami: {}"
+msgstr ""
+
+#: handlers/start.py:88
+msgid "Telefon raqamingiz qabul qilindi. Admin ruxsatini kuting."
+msgstr ""
+
+#: handlers/support.py:13
+msgid "support text"
+msgstr ""
+
+#: handlers/group/order_accept.py:22
+msgid "✅ Buyurtma qabul qilindi\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:23 handlers/group/order_accept.py:39
+msgid "Kim tomonidan: {}\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:24
+msgid ""
+"Qabul qilingan vaqt: {}\n"
+"\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:25
+msgid "#Zakaz"
+msgstr ""
+
+#: handlers/group/order_accept.py:37
+msgid ""
+"✅ Buyurtmangiz qabul qilindi.\n"
+"\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:38
+msgid "Buyurtma raqami: #{}\n"
+msgstr ""
+
+#: handlers/group/order_accept.py:42
+msgid "Qabul qilingan vaqt: {}\n"
+msgstr ""
+
+#: keyboards/inline/back.py:8 keyboards/inline/inline_query_kbd.py:40
+msgid "◀️ Menyuga"
+msgstr ""
+
+#: keyboards/inline/cart.py:17
+msgid "✅ Buyurtma berish"
+msgstr ""
+
+#: keyboards/inline/cart.py:18
+msgid "🗂 Buyurtmani davom ettirish"
+msgstr ""
+
+#: keyboards/inline/cart.py:19
+msgid "🧹 Tozalash"
+msgstr ""
+
+#: keyboards/inline/category_kbd.py:32 keyboards/inline/menu.py:13
+msgid "🛒 Korzina"
+msgstr ""
+
+#: keyboards/inline/category_kbd.py:33
+msgid "📂 Asosiy menu"
+msgstr ""
+
+#: keyboards/inline/category_kbd.py:54 keyboards/inline/category_kbd.py:68
+#: keyboards/inline/category_kbd.py:103
+msgid "◀️ Orqaga"
+msgstr ""
+
+#: keyboards/inline/category_kbd.py:102 keyboards/inline/inline_query_kbd.py:39
+msgid "✅ Savatga qo'shish"
+msgstr ""
+
+#: keyboards/inline/contacts.py:11 keyboards/inline/contacts.py:22
+msgid "support button"
+msgstr ""
+
+#: keyboards/inline/contacts.py:23
+msgid "back button"
+msgstr ""
+
+#: keyboards/inline/finder_kbd.py:34
+msgid "Orqaga"
+msgstr ""
+
+#: keyboards/inline/group_order.py:8
+msgid "✅ Qabul qilish"
+msgstr ""
+
+#: keyboards/inline/menu.py:11
+msgid "🔍 Qidirish"
+msgstr ""
+
+#: keyboards/inline/menu.py:12
+msgid "🗂 Kategoriya"
+msgstr ""
+
+#: keyboards/inline/menu.py:14
+msgid "🔥 Katalog"
+msgstr ""
+
+#: keyboards/inline/menu.py:15
+msgid "ℹ️ Info"
+msgstr ""
+
+#: keyboards/inline/menu.py:16
+msgid "🌎 Tilni o'zgartirish"
+msgstr ""
+
+#: keyboards/inline/perm.py:15
+msgid "✅ Ruxsat berish"
+msgstr ""
+
+#: keyboards/inline/perm.py:19
+msgid "❌ Rad qilish"
+msgstr ""
+
+#: keyboards/reply/get_phone_kbd.py:8
+msgid "Telefon raqam kiritish"
+msgstr ""
+
+#: keyboards/reply/get_phone_kbd.py:12
+msgid "Telefon raqamingizni kiriting."
+msgstr ""
+
+#~ msgid "first message"
+#~ msgstr ""
+
+#~ msgid "wallet button"
+#~ msgstr ""
+
+#~ msgid "premium button"
+#~ msgstr ""
+
+#~ msgid "info button"
+#~ msgstr ""
+
+#~ msgid "about"
+#~ msgstr ""
+
+#~ msgid "Tez kunda mahsulotlar qo'shiladi"
+#~ msgstr ""
+
+#~ msgid "Aiko Bot"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "AIKO — Yevropa sifat standartlariga "
+#~ "javob beradigan mebel mahsulotlarini ishlab"
+#~ " chiqaruvchi sifatida dovrugʻ qozongan "
+#~ "brenddir. Kompaniyada 600 dan ortiq "
+#~ "xodim mehnat qiladi. Barcha mahsulotlar "
+#~ "mashhur jahon brendlarining yuqori sifatli "
+#~ "uskunalari yordamida ishlab chiqariladi. AIKO"
+#~ " mahsulotlari MDH va qo‘shni mamlakatlar"
+#~ " bozorida katta talabga ega.\n"
+#~ "\n"
+#~ "2020-yilda AIKO ISO 9001-2015 sifat "
+#~ "menejmenti xalqaro sertifikatiga sazovor "
+#~ "boʻldi, bu kompaniyaga dilerlik tarmog‘ini "
+#~ "sezilarli darajada kengaytirish imkoniyatini "
+#~ "taqdim etdi. Bugungi kunda AIKO "
+#~ "mebellarini nafaqat O‘zbekistonda, balki "
+#~ "Qozog‘iston, Rossiya va boshqa ko‘plab "
+#~ "mamlakatlarda ham uchratish mumkin. Bundan "
+#~ "tashqari, AIKO MDH davlatlarining turli "
+#~ "shaharlarida o‘tkazilayotgan xalqaro ko‘rgazmalarda"
+#~ " faol ishtirok etib, o‘zining so‘nggi "
+#~ "yutuqlari va innovatsiyalarini namoyish etib"
+#~ " kelmoqda.\n"
+#~ "\n"
+#~ "2020-yilda AIKO Toshkentdagi mebel sanoati "
+#~ "korxonalari orasida to‘qilgan mebel eksporti"
+#~ " bo‘yicha yetakchi o‘rinlardan birini "
+#~ "egalladi. Bugungi kunda AIKO mahsulot "
+#~ "assortimentida to‘qilgan mebel va uy "
+#~ "mebellarining 700 dan ortiq modellari "
+#~ "mavjud. Kompaniya 2021 va 2022 yillarda"
+#~ " “Yil brendi” nufuzli mukofotiga sazovor"
+#~ " boʻlgan, bu esa iste’molchilar va "
+#~ "soha mutaxassislarining yuqori ishonch "
+#~ "darajasini ifodalaydi.\n"
+#~ "\n"
+#~ "Kompaniyaning asosiy maqsadi — nafis "
+#~ "dizayn, yengillik, soddalik va qulaylikni "
+#~ "oʻzida mujassam etgan mebellar yaratish. "
+#~ "Biz nafaqat mahsulotlarimiz sifati, balki "
+#~ "Yevropa standartlariga javob beradigan estetik"
+#~ " ko‘rinishi bilan ham iste’molchilar "
+#~ "mehrini qozonganmiz.  AIKOʼning barcha "
+#~ "mahsulotlari mustahkam va ishonchli boʻlib,"
+#~ " zamonaviy inson uchun mukammal tanlovdir."
+#~ "\n"
+#~ "\n"
+#~ "Mebelimiz mijozlarimiz xonadonining ajralmas "
+#~ "qismiga aylanib, qulaylik va shinamlik "
+#~ "baxsh etayotganidan hamisha faxrlanamiz. "
+#~ "Mukammallik va innovatsiyalarga doimiy  "
+#~ "intilishimiz bizga raqobatchilarimizdan bir "
+#~ "qadam oldinda turishga va eng yuqori "
+#~ "bozor talablariga javob beruvchi mahsulotlarni"
+#~ " taklif qilishga yordam beradi. Ishonchimiz"
+#~ " komilki, bu iste’molchilar ishonchini "
+#~ "qozonish va sohamiz yetakchisiga aylanishning"
+#~ " yagona yo‘li hisoblanadi.\n"
+#~ "\n"
+#~ "AIKO — shunchaki brend emas, bu "
+#~ "sifat va uslub ramzidir. Biz barcha "
+#~ "mijozlarimizga bildirilgan ishonch uchun "
+#~ "chuqur minnatdorchilik izhor etamiz va "
+#~ "ularni mebel olamida yangi va "
+#~ "innovatsion yechimlar bilan mamnun etishga "
+#~ "tayyormiz. Yutuqlarimiz butun jamoaning "
+#~ "mashaqqatli mehnati samarasidir va biz "
+#~ "bundan buyon ham yangi marralar va "
+#~ "muvaffaqiyatlar sari intilishdan toʻxtamaymiz\n"
+#~ ""
+#~ "\n"
+#~ msgstr ""
+
+#~ msgid "◀️Menyuga"
+#~ msgstr ""
+
+#~ msgid "Buyurtma berish"
+#~ msgstr ""
+
+#~ msgid "Buyurtmani davom ettirish"
+#~ msgstr ""
+
+#~ msgid "Tozalash"
+#~ msgstr ""
+
+#~ msgid "Korzina"
+#~ msgstr ""
+
+#~ msgid "Savatga qo'shish"
+#~ msgstr ""
+
+#~ msgid "Qabul qilish"
+#~ msgstr ""
+
+#~ msgid "Qidirish"
+#~ msgstr ""
+
+#~ msgid "Kategoriya"
+#~ msgstr ""
+
+#~ msgid "Kompaniya haqida"
+#~ msgstr ""
+
+#~ msgid "Tilni o'zgartirish"
+#~ msgstr ""
+
