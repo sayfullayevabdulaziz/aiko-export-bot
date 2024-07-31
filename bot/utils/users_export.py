@@ -25,7 +25,7 @@ async def convert_users_to_csv(users: list[UserModel]) -> BufferedInputFile:
     )
 
 async def pydantic_model_to_df(products):
-    data = [product.model_dump(exclude=["code", "DetailCode"]) for product in products]
+    data = [product.model_dump(exclude=["code", "DetailCode", "prices", "saleprices", "dealerprices", "saledealerprices"]) for product in products]
     df = pd.DataFrame(data)
     return df
 
@@ -33,14 +33,11 @@ async def pydantic_model_to_df(products):
 async def df_to_excel_binary(df):
 
     header_value = {
-        "name": "Номенклатура", 
-        "DetailSiteCode": "Артикул", 
+        "name": "Номенклатура",
+        "DetailSiteCode": "Артикул",
         "Detail": "Характеристика",
-        "stock": "Остаток", 
-        "prices": "Цена", 
-        "saleprices": "Цена со скидкой",
-        "dealerprices": "Дилерская цена",
-        "saledealerprices": "Дилерская цена со скидкой",
+        "stock": "Остаток",
+        "exportprices": "Цена",
     }
 
     buffer = io.BytesIO()
