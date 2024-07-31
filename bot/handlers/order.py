@@ -47,7 +47,7 @@ async def order_handler(query: types.CallbackQuery, session: AsyncSession, bot: 
     
     group_text += user_text[user_text.find("\n")+1:]
     await bot.send_message(
-        chat_id=-4198331272,
+        chat_id=-1002195162790,
         text=group_text,
         reply_markup=await accept_order_group(order_id=order.id),
     )

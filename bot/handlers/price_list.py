@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime
 
 from aiogram import types, Router, F
 from aiogram.utils.i18n import gettext as _
