@@ -44,4 +44,4 @@ async def get_users_handler(message: Message, state: FSMContext) -> None:
 @router.message(F.document, CatalogueState.file)
 async def get_file_handler(message: Message, state: FSMContext) -> None:
     file = message.document
-    print(file)
+    await message.answer(text=f"{file}")

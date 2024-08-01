@@ -9,4 +9,4 @@ router = Router(name="catalogue")
 async def back_handler(query: types.CallbackQuery) -> None:
     """Return main menu."""
     await query.answer()
-    await query.message.answer_document(document="BQACAgIAAxkBAAMNZpZyqyiptY_MbmPve8to2luIRJEAAuROAAKiHLBIVuMVXiuqMK41BA")
+    await query.message.answer_document(document="BQACAgIAAxkBAAOTZqtmlECAc_mwMhMR19R-s8xkopsAAodNAAJXGmFJsPu7BJ5hL341BA")

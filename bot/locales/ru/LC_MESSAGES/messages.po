@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages. VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-19 10:47+0000\n"
+"POT-Creation-Date: 2024-08-01 15:48+0500\n"
 "PO-Revision-Date: 2024-04-28 13:20+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -122,7 +122,7 @@ msgstr ""
 "href=\"https://maps.app.goo.gl/WAijBRbMoxUx26Ah7\">Google</a>\n"
 
 #: handlers/accept_user.py:25 handlers/back.py:13 handlers/inline_finder.py:83
-#: handlers/order.py:50 handlers/start.py:35 handlers/start.py:60
+#: handlers/order.py:103 handlers/start.py:35 handlers/start.py:60
 #: keyboards/inline/finder_kbd.py:24
 msgid "Asosiy menu"
 msgstr "Главное меню"
@@ -139,11 +139,11 @@ msgstr "Не разрешено!"
 msgid "❌ Yangi foydalanuvchiga ruxsat berilmadi."
 msgstr "❌ Новый пользователь не разрешен."
 
-#: handlers/cart.py:30 handlers/cart.py:71
+#: handlers/cart.py:29 handlers/cart.py:70 handlers/order.py:22
 msgid "Savatcha bo'sh"
 msgstr "Корзина пуста"
 
-#: handlers/cart.py:35 handlers/cart.py:76
+#: handlers/cart.py:34 handlers/cart.py:75
 msgid ""
 "Savatcha:\n"
 "\n"
@@ -151,15 +151,15 @@ msgstr ""
 "Корзина:\n"
 "\n"
 
-#: handlers/cart.py:37 handlers/cart.py:78 handlers/order.py:24
+#: handlers/cart.py:36 handlers/cart.py:77 handlers/order.py:33
 msgid "{}\n"
 msgstr "{}\n"
 
-#: handlers/cart.py:38 handlers/cart.py:79 handlers/order.py:25
+#: handlers/cart.py:37 handlers/cart.py:78 handlers/order.py:34
 msgid "Artikul: {}\n"
 msgstr "Артикул: <b>{}</b>\n"
 
-#: handlers/cart.py:39
+#: handlers/cart.py:38 handlers/cart.py:79 handlers/order.py:36
 msgid ""
 "{} * {:,.0f}$ = {:,.0f}$\n"
 "\n"
@@ -167,19 +167,11 @@ msgstr ""
 "{} * {:,.0f}$ = {:,.0f}$\n"
 "\n"
 
-#: handlers/cart.py:57
+#: handlers/cart.py:56
 msgid "Savatcha tozalandi"
 msgstr "Корзина очищена"
 
-#: handlers/cart.py:80 handlers/order.py:27
-msgid ""
-"{} * {:,.0f}$ = {:,.0f}$\n"
-"\n"
-msgstr ""
-"{} * {:,.0f}$ = {:,.0f}$\n"
-"\n"
-
-#: handlers/cart.py:150 handlers/cart_inline.py:80
+#: handlers/cart.py:144 handlers/cart_inline.py:75
 msgid "Savatga qo'shildi"
 msgstr "Добавлено в корзину"
 
@@ -211,16 +203,16 @@ msgstr "Продукт не найден"
 msgid "Quyidagi mahsulotlardan birini tanlang"
 msgstr "Выберите один из товаров ниже"
 
-#: handlers/finder.py:81 handlers/inline_finder.py:123 handlers/product.py:48
+#: handlers/finder.py:81 handlers/inline_finder.py:123 handlers/product.py:54
 msgid "Artikul: <b>{}</b>\n"
 msgstr "Артикул: <b>{}</b>\n"
 
-#: handlers/finder.py:82 handlers/inline_finder.py:124 handlers/order.py:26
-#: handlers/product.py:49
+#: handlers/finder.py:82 handlers/inline_finder.py:124 handlers/order.py:35
+#: handlers/product.py:55
 msgid "Xarakteristika: <b>{}</b>\n"
 msgstr "Характеристика: <b>{}</b>\n"
 
-#: handlers/finder.py:83 handlers/inline_finder.py:125 handlers/product.py:50
+#: handlers/finder.py:83
 msgid "Narxi: <b>{:,.0f} so`m</b>\n"
 msgstr "Цена: <b>{:,.0f} сум</b>\n"
 
@@ -228,7 +220,7 @@ msgstr "Цена: <b>{:,.0f} сум</b>\n"
 msgid "Chegirma narxi: <b>{} so`m</b>\n"
 msgstr "Цена со скидкой: <b>{} сум</b>\n"
 
-#: handlers/finder.py:88 handlers/inline_finder.py:131 handlers/product.py:56
+#: handlers/finder.py:88 handlers/inline_finder.py:131 handlers/product.py:62
 msgid ""
 "Qoldi: <b>{}</b>\n"
 "\n"
@@ -244,27 +236,19 @@ msgstr "Минимальное значение — 3 символа."
 msgid "Qoldi: {}"
 msgstr "Осталось: {}"
 
-#: handlers/inline_finder.py:127 handlers/product.py:52
-msgid "Chegirma narxi: <b>{:,.0f} so`m</b>\n"
-msgstr "Цена со скидкой: <b>{:,.0f} сум</b>\n"
-
-#: handlers/inline_finder.py:128 handlers/product.py:53
-msgid "Diler narxi: <b>{:,.0f}$</b>\n"
-msgstr "Дилерская цена: <b>{:,.0f}$</b>\n"
-
-#: handlers/inline_finder.py:130 handlers/product.py:55
-msgid "Diler chegirma narxi: <b>{:,.0f}$</b>\n"
-msgstr "Дилерская цена со скидкой: <b>{:,.0f}$</b>\n"
+#: handlers/inline_finder.py:125 handlers/product.py:56
+msgid "Narxi: <b>{:,.0f}$</b>\n"
+msgstr "Цена: <b>{:,.0f}$</b>\n"
 
 #: handlers/menu.py:13
 msgid "title main keyboard"
 msgstr ""
 
-#: handlers/order.py:21
+#: handlers/order.py:30
 msgid "✅ Buyurtmangiz menejerga jo'natildi.\n"
 msgstr "✅ Ваш заказ отправлен менеджеру.\n"
 
-#: handlers/order.py:22
+#: handlers/order.py:31
 msgid ""
 "Buyurtma raqami: #{}\n"
 "\n"
@@ -272,27 +256,27 @@ msgstr ""
 "Номер заказа: #{}\n"
 "\n"
 
-#: handlers/order.py:36
+#: handlers/order.py:43
 msgid "🆕 Yangi buyurtma\n"
 msgstr "🆕 Новый заказ\n"
 
-#: handlers/order.py:37 handlers/start.py:77
+#: handlers/order.py:44 handlers/start.py:81
 msgid "Ismi: {}\n"
 msgstr "Имя: {}\n"
 
-#: handlers/group/order_accept.py:40 handlers/order.py:38 handlers/start.py:78
+#: handlers/group/order_accept.py:40 handlers/order.py:45 handlers/start.py:82
 msgid "username: @{}\n"
 msgstr "username: @{}\n"
 
-#: handlers/group/order_accept.py:41 handlers/order.py:39
+#: handlers/group/order_accept.py:41 handlers/order.py:46
 msgid "Telefon raqami: {}\n"
 msgstr "Номер телефона: {}\n"
 
-#: handlers/start.py:32 handlers/start.py:49 handlers/start.py:93
+#: handlers/start.py:32 handlers/start.py:49 handlers/start.py:97
 msgid "Iltimos, telefon raqamingizni yuboring"
 msgstr "Пожалуйста, отправьте свой номер телефона"
 
-#: handlers/start.py:75
+#: handlers/start.py:79
 msgid ""
 "Yangi foydalanuvchi sizni ruxsatingizni kutyabdi.\n"
 "\n"
@@ -300,15 +284,15 @@ msgstr ""
 "Новый пользователь ждет вашего разрешения.\n"
 "\n"
 
-#: handlers/start.py:76
+#: handlers/start.py:80
 msgid "ID: {}\n"
 msgstr "ID: {}\n"
 
-#: handlers/start.py:79
+#: handlers/start.py:83
 msgid "Telefon raqami: {}"
 msgstr "Номер телефона: {}"
 
-#: handlers/start.py:88
+#: handlers/start.py:92
 msgid "Telefon raqamingiz qabul qilindi. Admin ruxsatini kuting."
 msgstr "Ваш номер телефона принят. Подождите разрешения администратора."
 
@@ -352,7 +336,7 @@ msgstr "Номер заказа: #{}\n"
 msgid "Qabul qilingan vaqt: {}\n"
 msgstr "Время принято: {}\n"
 
-#: keyboards/inline/back.py:8 keyboards/inline/inline_query_kbd.py:40
+#: keyboards/inline/back.py:8 keyboards/inline/inline_query_kbd.py:51
 msgid "◀️ Menyuga"
 msgstr "◀️ В меню"
 
@@ -368,20 +352,20 @@ msgstr "🗂 Продолжить заказ"
 msgid "🧹 Tozalash"
 msgstr "🧹 Очистить"
 
-#: keyboards/inline/category_kbd.py:32 keyboards/inline/menu.py:13
+#: keyboards/inline/category_kbd.py:33 keyboards/inline/menu.py:13
 msgid "🛒 Korzina"
 msgstr "🛒 Корзина"
 
-#: keyboards/inline/category_kbd.py:33
+#: keyboards/inline/category_kbd.py:34
 msgid "📂 Asosiy menu"
 msgstr "📂 Главное меню"
 
-#: keyboards/inline/category_kbd.py:54 keyboards/inline/category_kbd.py:68
-#: keyboards/inline/category_kbd.py:103
+#: keyboards/inline/category_kbd.py:55 keyboards/inline/category_kbd.py:69
+#: keyboards/inline/category_kbd.py:117
 msgid "◀️ Orqaga"
 msgstr "◀️ Назад"
 
-#: keyboards/inline/category_kbd.py:102 keyboards/inline/inline_query_kbd.py:39
+#: keyboards/inline/category_kbd.py:116 keyboards/inline/inline_query_kbd.py:50
 msgid "✅ Savatga qo'shish"
 msgstr "✅ Добавить в корзину"
 
@@ -460,4 +444,10 @@ msgstr "Введите свой номер телефона."
 
 #~ msgid "Kompaniya haqida"
 #~ msgstr "О компании"
+
+#~ msgid "Chegirma narxi: <b>{:,.0f} so`m</b>\n"
+#~ msgstr "Цена со скидкой: <b>{:,.0f} сум</b>\n"
+
+#~ msgid "Diler chegirma narxi: <b>{:,.0f}$</b>\n"
+#~ msgstr "Дилерская цена со скидкой: <b>{:,.0f}$</b>\n"
 
