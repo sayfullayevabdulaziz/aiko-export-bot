@@ -15,7 +15,7 @@ pydantic = "^2.8.2"
 pydantic-settings = "^2.4.0"
 beautifulsoup4 = "^4.12.3"
 aiogram-dialog = "^2.1.0"
-cryptography = "^43.0.0"
+cryptography = "^43.0.1"
 pandas = "^2.2.2"
 xlsxwriter = "^3.2.0"
 
