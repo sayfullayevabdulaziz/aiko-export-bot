@@ -16,7 +16,7 @@ pydantic-settings = "^2.5.2"
 beautifulsoup4 = "^4.12.3"
 aiogram-dialog = "^2.2.0"
 cryptography = "^43.0.1"
-pandas = "^2.2.2"
+pandas = "^2.2.3"
 xlsxwriter = "^3.2.0"
 
 [tool.poetry.group.bot.dependencies]
