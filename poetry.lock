@@ -57,13 +57,13 @@ test = ["aresponses (>=2.1.6,<2.2.0)", "pycryptodomex (>=3.19.0,<3.20.0)", "pyte
 
 [[package]]
 name = "aiogram-dialog"
-version = "2.3.0"
+version = "2.3.1"
 description = "Telegram bot UI framework on top of aiogram"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "aiogram_dialog-2.3.0-py3-none-any.whl", hash = "sha256:6ae3c37378b53621aebd3715f3a021a7494d4fa0840494c111141c73209db06a"},
-    {file = "aiogram_dialog-2.3.0.tar.gz", hash = "sha256:ae33870292c6a057c7d8127d6f2c7d558699a1becefcffddc4d628cbf804aa50"},
+    {file = "aiogram_dialog-2.3.1-py3-none-any.whl", hash = "sha256:9c780f1768ac12f6a2e559fe74c72b1de410bbf56aa0af1ee7cf2e6d70276cb5"},
+    {file = "aiogram_dialog-2.3.1.tar.gz", hash = "sha256:ec340c88c22a6e3c1777adf7f96f46c7429b5a4575c50fec79da53def6ae6770"},
 ]
 
 [package.dependencies]
@@ -2858,4 +2858,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e4edc31d9bfebf93c2b11fee4d5a6cd442c17c9a8e58de8e863ab8ce1366ad8d"
+content-hash = "b1c8d0f83c54d5312133585e1601a4b398e6f77075d9e394ef690c71f78b545f"
